@@ -17,7 +17,7 @@ This repository contains a Report_Tool (code) that prints out a report in plain 
   5. Once loged to the VM, run ``cd /vagrant``.
   6. To print out the report, run ``python query.py``.
   
-  ## Report Example
+  ### Report Example
 
 """
 ----------------------------------------------------------------
