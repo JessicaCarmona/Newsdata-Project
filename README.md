@@ -12,12 +12,12 @@ This repository contains a code/Repor_Tool that prints out reports in plain text
  
   **Important Note:** If you are using ``Windows`` operating system, before you continue to step 3), make sure you enable ``Intel Virtualization Technology`` hardware extantion by opening the system's BIOS menu.
   
-  3. Asumming you already have Git installed, through the git terminal, cd inside the vagrant subdirectory, than run the command ``vagrant up`` to get the VM started.
-  4. Once you get the shell prompt back, run the ``vagrant ssh`` command to log in the VM
-  5. Once loged, run ``cd /vagrant``
-  6. To test the Report_Tool run the following command ``python query.py``, the report will print out.
-   
-                       ## Report Example
+  3. Asumming you already have Git installed, through the git terminal, cd inside the vagrant subdirectory, than run the ``vagrant up`` command to get the VM started.
+  4. When you get the shell prompt back, run the ``vagrant ssh`` command to log-in the VM.
+  5. Once loged to the VM, run ``cd /vagrant``.
+  6. To print out the report, run ``python query.py``.
+  
+  ## Report Example
 ----------------------------------------------------------------
 
                         Newsdata Results
