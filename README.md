@@ -18,7 +18,7 @@ This repository contains a code/Repor_Tool that prints out reports in plain text
   6. To print out the report, run ``python query.py``.
   
   ## Report Example
-----------------------------------------------------------------
+"""----------------------------------------------------------------
 
                         Newsdata Results
 
@@ -47,10 +47,10 @@ This repository contains a code/Repor_Tool that prints out reports in plain text
 
         * Jul, 17 2016:  2.263 % error
 
-----------------------------------------------------------------
+---------------------------------------------------------------- """
        
  ## VIEWS created to run the Query Codes:
- 
+````sql 
 CREATE VIEW **Table1** AS
 SELECT title,
     name
@@ -88,5 +88,5 @@ SELECT total_status.date,
     total,
     errors
 FROM total_status JOIN error_status ON total_status.date = error_status.date
-ORDER BY date; 
+ORDER BY date; ````
  
