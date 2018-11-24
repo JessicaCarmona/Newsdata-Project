@@ -1,6 +1,6 @@
 # Newsdata-Project
 
-This repository contains a Report_Tool (code) that prints out a report in plain text from the `newsdata` in the `news` database.
+This repository contains a Report_Tool (code) that prints out a report in plain text from the data (`newsdata`) in the `news` database.
 
 ## Steps to get started
 
