@@ -1,6 +1,6 @@
 # Newsdata-Project
 
-This repository contains a code/Repor_Tool that prints out reports in plain text based on the newsdata in the database called news.
+This repository contains a Report_Tool (code) that prints out a report in plain text based on the newsdata from a database called news.
 
 ## Steps to get started
 
@@ -12,16 +12,17 @@ This repository contains a code/Repor_Tool that prints out reports in plain text
  
   **Important Note:** If you are using ``Windows`` operating system, before you continue to step 3), make sure you enable ``Intel Virtualization Technology`` hardware extantion by opening the system's BIOS menu.
   
-  3. Asumming you already have Git installed, through the git terminal, cd inside the vagrant subdirectory, than run the ``vagrant up`` command to get the VM started.
+  3. Asumming you already have Git installed, through the git terminal cd inside the vagrant subdirectory, than run the ``vagrant up`` command to get the VM started.
   4. When you get the shell prompt back, run the ``vagrant ssh`` command to log-in the VM.
   5. Once loged to the VM, run ``cd /vagrant``.
   6. To print out the report, run ``python query.py``.
   
   ## Report Example
-"""----------------------------------------------------------------
+
+"""
+----------------------------------------------------------------
 
                         Newsdata Results
-
 
  --> The Top 3 Articles of All Times
 
@@ -30,7 +31,6 @@ This repository contains a code/Repor_Tool that prints out reports in plain text
         * 'Bears love berries, alleges bear':  253801 views
 
         * 'Bad things gone, say good people':  170098 views
-
 
  --> Most Popular Authors of All Times
 
@@ -42,14 +42,15 @@ This repository contains a code/Repor_Tool that prints out reports in plain text
 
         * Markoff Chaney:  84557 views
 
-
  --> Days with more than 1% percent of requests with error
 
         * Jul, 17 2016:  2.263 % error
 
----------------------------------------------------------------- """
+---------------------------------------------------------------- 
+"""
        
  ## VIEWS created to run the Query Codes:
+ 
 ````sql 
 CREATE VIEW **Table1** AS
 SELECT title,
@@ -88,5 +89,5 @@ SELECT total_status.date,
     total,
     errors
 FROM total_status JOIN error_status ON total_status.date = error_status.date
-ORDER BY date; ````
+ORDER BY date;
  
