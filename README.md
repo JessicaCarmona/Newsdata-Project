@@ -19,8 +19,7 @@ This repository contains a Report_Tool (code) that prints out a report in plain 
   
   ### Report Example
 
-"""
-----------------------------------------------------------------
+"----------------------------------------------------------------
 
                         Newsdata Results
 
@@ -46,8 +45,7 @@ This repository contains a Report_Tool (code) that prints out a report in plain 
 
         * Jul, 17 2016:  2.263 % error
 
----------------------------------------------------------------- 
-"""
+----------------------------------------------------------------"
        
  ## VIEWS created to run the Query Codes:
  
