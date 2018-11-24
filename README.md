@@ -52,20 +52,20 @@ This repository contains a Report_Tool (code) that prints out a report in plain 
  ## VIEWS created to run the Query Codes:
  
 ````sql 
-CREATE VIEW **Table1** AS
+CREATE VIEW Table1 AS
 SELECT title,
     name
 FROM Articles JOIN Authors ON articles.author = authors.id;
 
 
-CREATE VIEW **Table2** AS
+CREATE VIEW Table2 AS
 SELECT status,
     to_char(time, 'FMMon, DD YYYY') "date",
     substr(path, 10) "slug"
 FROM log;
 
 
-CREATE VIEW **Table3** AS
+CREATE VIEW Table3 AS
 SELECT title,
     name,
     status,
@@ -73,7 +73,7 @@ SELECT title,
 FROM Table2 JOIN Table1 ON Table2.slug = Table1.slug;
 
 
-CREATE VIEW **Table4** AS
+CREATE VIEW Table4 AS
 WITH total_status AS (
         SELECT date,
             count(*) AS total
