@@ -46,7 +46,7 @@ def query(query_code):
 
 # Codes to print the report with each query results
 def Heading():
-    """Prints Report Heading""""
+    """Prints Report Heading"""
     Heading = "Newsdata Results"
     print("\n----------------------------------------------------------\n")
     print("\t\t\t" + Heading + "\n")
