@@ -15,7 +15,7 @@ This repository contains a Report_Tool (code) that prints out a report in plain 
   3. Asumming you already have Git installed, through the git terminal, get inside the News-Project directory and cd inside the vagrant subdirectory, than run the ``vagrant up`` command to get the VM started.
   4. When you get the shell prompt back, run the ``vagrant ssh`` command to log-in the VM.
   5. Once loged to the VM, run ``cd /vagrant``.
-  6. To print out the report, run ``python query.py``.
+  6. To print out the report, run ``python Query.py``.
          
  ## VIEWS created to run the Query Codes:
  
