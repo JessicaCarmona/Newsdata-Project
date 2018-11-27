@@ -22,7 +22,8 @@ This repository contains a Report_Tool (code) that prints out a report in plain 
 ````sql 
 CREATE VIEW Table1 AS
 SELECT title,
-    name
+    name,
+    slug
 FROM Articles JOIN Authors ON articles.author = authors.id;
 
 
